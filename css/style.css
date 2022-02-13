@@ -99,6 +99,13 @@ main a:hover{
     padding: 3px 15px;
     font-weight: bold;
 }
+main a:active{
+    background-color: #d1495bb4;
+    border: 2px solid #D1495B;
+    border-radius: 4px;
+    color: white;
+    padding: 3px 15px;
+}
 .precio-card{
     font-weight: bold;
     color:#ee970c;
@@ -106,9 +113,20 @@ main a:hover{
 }
 footer{
     background-color: #4F6367;
+    color: white;
+    text-align: center;
+}
+footer p{
+    padding-top: 10px;
+    padding-bottom: 0px;
+    margin: 0;
 }
 footer div{
     padding: 20px 10px;
+    display: flex;
+    justify-content: center;
+}
+footer i{
     color: white;
-    text-align: center;
+    margin: 0px 20px;
 }
