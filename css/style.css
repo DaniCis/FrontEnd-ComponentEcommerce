@@ -16,6 +16,8 @@ nav h3{
     margin: 0;
     color: white;
     font-family: 'Ubuntu Condensed', sans-serif;
+    padding-right: 50px;
+    padding-left: 20px;
 }
 nav ul{
     list-style: none;
@@ -28,7 +30,13 @@ nav ul{
 li a {
     text-decoration: none;
     color: white;
-    padding: 30px;
+    padding: 20px;
+}
+li a:hover{
+    background-color: #029fbe7c;
+    border-bottom: 3px solid white;
+    padding: 20px 20px 17px;
+    font-weight: bold;
 }
 .nav-izq{
     display: flex;
@@ -69,7 +77,7 @@ main{
     width: 200px;
     height: 160px;
     opacity: 0.8;
-    filter: drop-shadow(0 1px 5px rgba(0, 0, 0, 0.7));
+    filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
 }
 .footer-card{
     display: flex;
@@ -83,6 +91,14 @@ main{
     color:#fff;
     text-align: center;
 }
+main a:hover{
+    background-color: transparent;
+    border: 2px solid #D1495B;
+    border-radius: 4px;
+    color: #D1495B;
+    padding: 3px 15px;
+    font-weight: bold;
+}
 .precio-card{
     font-weight: bold;
     color:#ee970c;
@@ -90,4 +106,9 @@ main{
 }
 footer{
     background-color: #4F6367;
+}
+footer div{
+    padding: 20px 10px;
+    color: white;
+    text-align: center;
 }
